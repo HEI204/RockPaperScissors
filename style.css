@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #24272E;
+}
+
+header
+{
+    background: white;
+    padding: 10px;
+    width:100%;
+}
+
+header h1
+{
+    color: #24272E;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.selections
+{
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.selection
+{
+    background: none;
+    border: none;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    transition: 100ms;
+}
+
+.selection:hover
+{
+    transform: scale(1.5);
+}
+
+.result
+{
+    color: #CCC;
+    font-family: Asap, sans-serif;
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.score
+{
+    font-family: Asap, sans-serif;
+    color: #CCC;
+    margin-left: 0.5rem;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.result_selection
+{
+    font-size: 60px;
+    opacity: 0.2;
+}
+
+.result_selection_winner
+{
+    font-size: 70px;
+    opacity: 1;
+}
